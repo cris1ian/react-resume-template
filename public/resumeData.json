@@ -2,12 +2,14 @@
     "main": {
         "name": "Cristian Martínez D'Urbano",
         "occupation": "Ingeniero Electrónico y Desarrollador de Software",
-        "description": "\n\nMe considero una persona inquieta, curiosa, me fascina estar incorporando nuevos conocimientos en forma constante y me considero bastante creativo. Respecto de mi trabajo tengo mis áreas de expertise y me adapto con rapidez a nuevas tecnologías y así fui formando un perfil ágil y versátil. Considero mi velocidad para aprender el motor que me trajo hasta aquí. También me desenvuelvo bien en el manejo de equipos de trabajo.",
+        "description": "\n\nMe considero una persona inquieta, curiosa, me fascina estar incorporando nuevos conocimientos en forma constante y me considero bastante creativo. \n \n Respecto de mi trabajo tengo mis áreas de expertise y me adapto con rapidez a nuevas tecnologías con lo cual fui formando un perfil ágil y versátil. Considero mi velocidad para aprender el motor que me trajo hasta aquí.",
         "image": "profilepic.jpg",
-        "bio": "Me considero una persona muy proactiva, me gusta comprender a fondo las tecnologías que uso y estoy siempre a la vera de conocer cuál será el próximo salto tecnológico para sumarme a él \n Además de ello me gusta mucho el humor para el día a día laboral, fanático de los memes y los juegos de palabras. ¿Un ídolo? El filósofo Crisipo de Solos, si querés saber por qué tan sólo Googlealo. \n Por fuera de lo técnico me he enfocado también en pulir mis soft-skills y así he desarrollado también habilidades para coordinar equipos de trabajo y planificar procesos de desarrollo con el cliente \n Me sigo olvidando el npm install ",
+        "bio": "Me considero una persona muy proactiva, me gusta comprender a fondo las tecnologías que uso y estoy siempre a la vera de conocer cuál será el próximo salto tecnológico para sumarme a él \n Además de ello me gusta mucho el humor para el día a día laboral, fanático de los memes y los juegos de palabras. \n Por fuera de lo técnico me he enfocado también en pulir mis soft-skills y así he desarrollado también habilidades para coordinar equipos de trabajo y planificar procesos de desarrollo con el cliente. \n Me sigo olvidando el npm install.",
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
         "email": "martinezdurbano@hotmail.com",
-        "phone": "549-341-3033009",
+        "birthdate": "2 de Noviembre de 1989",
+        "phone": "54-341-3033009",
+        "whatsappLink": "http://wa.me/5493413033009",
         "address": {
             "street": "French 1425",
             "city": "Rosario",
@@ -156,12 +158,12 @@
             },
             {
                 "name": "Bootstrap",
-                "level": "60%",
+                "level": "30%",
                 "className": "fab fa-bootstrap"
             },
             {
                 "name": "Material Design",
-                "level": "85%",
+                "level": "55%",
                 "className": "fab fa-linkedin"
             },
             {
@@ -171,17 +173,17 @@
             },
             {
                 "name": "CSS",
-                "level": "85%",
+                "level": "65%",
                 "className": "fab fa-css3"
             },
             {
                 "name": "HTML5",
-                "level": "95%",
+                "level": "80%",
                 "className": "fab fa-html5"
             },
             {
                 "name": "MongoDB",
-                "level": "70%",
+                "level": "60%",
                 "className": "fas fa-database"
             },
             {
@@ -201,7 +203,7 @@
             },
             {
                 "name": "Git",
-                "level": "50%",
+                "level": "70%",
                 "className": "fas fa-code-branch"
             },
             {
@@ -230,6 +232,12 @@
             "DNP",
             "OPC",
             "Elcom90"
+        ],
+        "extraCurricular": [
+            "Toco guitarra, canto (a veces hasta afino).",
+            "Hago acrobacia aérea, trapecio principalmente.",
+            "Olimpíada Matemática Argentina ed. 2005 y 2006.",
+            "Actor de Teatro. Obras: \n\t\tJuan Darién (2019 Teatro La Comedia)\n\t\tCon el Alma Concert (2019)\n\t\tSolo Dame 5 Razones (2017–2018)\n\t\tLo Mismo Pero Al Revés (2014-2015)\n\t\t$49,90 - Todo Se Puede Comprar (2015–2016.)\n\t\tLa Siniestra (2014)"
         ]
     },
     "portfolio": {

@@ -67,6 +67,8 @@ header .banner-text h1 {
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+    margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 header .banner-text h3 {
     font: 18px/1.9em "librebaskerville-regular", serif;
@@ -243,6 +245,8 @@ ul#nav li.current a {
 #about .download {
     width: 58.33333%;
     padding-top: 6px;
+    display: flex;
+    justify-content: center;
 }
 #about .main-col {
     padding-right: 5%;
@@ -479,6 +483,18 @@ ul#nav li.current a {
     /* background-color: green; */
     min-width: 33%;
     padding-right: 10px;
+}
+
+/*----------------------------------------------*/
+/*	Extra curricular section
+/*----------------------------------------------*/
+
+.extra-curricular-title {
+    line-height: 50px;
+}
+
+.extra-curricular-body {
+    white-space: pre-wrap;
 }
 
 /* ------------------------------------------------------------------ */
