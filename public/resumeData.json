@@ -1,154 +1,285 @@
 {
-  "main": {
-    "name": "Tim Baker",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+    "main": {
+        "name": "Cristian Martínez D'Urbano",
+        "occupation": "Ingeniero Electrónico y Desarrollador de Software",
+        "description": "\n\nMe considero una persona inquieta, curiosa, me fascina estar incorporando nuevos conocimientos en forma constante y me considero bastante creativo. Respecto de mi trabajo tengo mis áreas de expertise y me adapto con rapidez a nuevas tecnologías y así fui formando un perfil ágil y versátil. Considero mi velocidad para aprender el motor que me trajo hasta aquí. También me desenvuelvo bien en el manejo de equipos de trabajo.",
+        "image": "profilepic.jpg",
+        "bio": "Me considero una persona muy proactiva, me gusta comprender a fondo las tecnologías que uso y estoy siempre a la vera de conocer cuál será el próximo salto tecnológico para sumarme a él \n Además de ello me gusta mucho el humor para el día a día laboral, fanático de los memes y los juegos de palabras. ¿Un ídolo? El filósofo Crisipo de Solos, si querés saber por qué tan sólo Googlealo. \n Por fuera de lo técnico me he enfocado también en pulir mis soft-skills y así he desarrollado también habilidades para coordinar equipos de trabajo y planificar procesos de desarrollo con el cliente \n Me sigo olvidando el npm install ",
+        "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+        "email": "martinezdurbano@hotmail.com",
+        "phone": "549-341-3033009",
+        "address": {
+            "street": "French 1425",
+            "city": "Rosario",
+            "state": "Santa Fe",
+            "zip": "S2013"
+        },
+        "website": "http://www.timbakerdev.com",
+        "resumedownload": "http://timbakerdev.com",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/martinezdurbanocristian/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github Cristian",
+                "url": "http://github.com/cris1ian/",
+                "className": "fa fa-github"
+            },
+            {
+                "name": "github Ahora Doctor",
+                "url": "http://github.com/cristian-ad/",
+                "className": "fa fa-github"
+            }
+        ]
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
-    "social": [
-      {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/tbakerx",
-        "className": "fa fa-github"
-      }
-    ]
-  },
-  "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-    "education": [
-      {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
-    ],
-    "work": [
-      {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
-    "skills": [
-      {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
-        "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
-      }
-    ]
-  }
+    "resume": {
+        "skillmessage": "Éstas son mis principales skills y las tecnologías que he utilizado a lo largo de mi carrera",
+        "education": [
+            {
+                "school": "Universidad Nacional de Rosario - Facultad de Ciencias Exactas, Ingeniería y Agrimensura",
+                "degree": "Ingeniero Electrónico",
+                "graduated": "2009 - Actualidad",
+                "description": "Materias Aprobadas 39/40 (97,5 %). Tesis en curso"
+            },
+            {
+                "school": "German Burgardt",
+                "degree": "Tecnologías Web - Curso individual",
+                "graduated": "2019",
+                "description": "Durante un año estuve aprendiendo con un programador amigo mío con ya varios años de experiencia quien me fue enseñó lo fundamental para incorporarme al rubro y que me ayudó a encarar mis primeros proyectos como freelance."
+            },
+            {
+                "school": "Udemy",
+                "degree": "Full Stack Web Developer",
+                "graduated": "2018",
+                "description": "Curso Online (+35hs) en el framework de AngularJS (Typescript, html, CSS)"
+            },
+            {
+                "school": "Escuela Tecnológica Politécnico E.E.T. N3",
+                "degree": "Técnico en Instalaciones y Equipos Electromecánicos",
+                "graduated": "2018",
+                "description": "Título Secundario - Berazategui, Buenos Aires"
+            }
+        ],
+        "work": [
+            {
+                "company": "Right Partner",
+                "title": "Software Development Engineer",
+                "location": "Buenos Aires, Argentina",
+                "years": "feb 2020 / Actual.",
+                "website": "https://www.rightpartner.io/",
+                "description": "Desarrollo de Aplicaciones Móviles y Páginas Web orientadas a brindar servicios a empresas de variados rubros (Sistemas de Stock, Petroleras, Estudios Contables). Me encargo del desarrollo FullStack de cada una de las aplicaciones, del trato con el cliente y de la gestión de proyecto para llevarlo a término. Durante el 2021 además empecé a coordinar equipos de trabajo dentro de la empresa. Además hago el seguimiento de proyecto junto a la par del cliente."
+            },
+            {
+                "company": "Ministerio de Defensa de Argentina",
+                "title": "Software Development Engineer",
+                "location": "Buenos Aires, Argentina",
+                "years": "mar 2020 / Actual.",
+                "website": "https://www.argentina.gob.ar/defensa/",
+                "description": "Web Developer. Estuve desarrollando para el Ministerio de Defensa de la Nación aplicaciones que permitieron resolver cuestiones de logística frente a la pandemia de COVID-19. Entre ellas se cuentan un sistema de turnos de comercios para cientes y un sistema de turnos de vacunación para personal militar. Me encargué principalmente de la gestión de proyecto, coordinación de equipo y plazos de entrega. Fue uno de los desafíos más apremiantes en cuanto al tiempo. "
+            },
+            {
+                "company": "Eon6",
+                "title": "CEO",
+                "location": "Rosario, Santa Fe, Argentina",
+                "years": "feb 2018 / feb 2020",
+                "website": "https://www.eon6.com.ar/",
+                "description": "Desarrollo de Páginas Web y de aplicaciones móviles. Mi proyecto más ambicioso hasta la fecha. A finales del 2018 formé Eon6 y fui conformando un equipo de trabajo que fue creciendo y dándole trabajo a chicos con gran potencial como developers. Fuimos creciendo desde ser 2 Devs hasta un pequeño equipo de trabajo de 8 personas que busca seguir creciendo. Me desenvuelvo como líder técnico a la hora de resolver dificultades con el equipo, de la gestión de proyectos, de varias tareas administrativas y de la dirección general de la empresa."
+            },
+            {
+                "company": "Magrathea",
+                "title": "Microemprendimiento",
+                "location": "Rosario, Santa Fe, Argentina",
+                "years": "mar 2018 / jul 2019",
+                "website": "",
+                "description": "Magrathea fue un pequeño proyecto de automatización y control desarrollado en C++ con un compañero de facultad basado en microcontroladores Arduino. Luego según su crecimiento fue migrándose a un microcontrolador más potente como el NodeMCU que además nos brindó funcionalidades de red WiFi. Lamentablemente nunca llegó a concretarse ya que fueron surgiendo otros trabajos y fue quedando en el olvido. Espero en algún momento poder retomarlo."
+            },
+            {
+                "company": "Tiempo Real SOTR",
+                "title": "Ingeniero Electrónico",
+                "location": "Rosario, Santa Fe, Argentina",
+                "years": "oct 2016 / oct 2018",
+                "website": "https://www.trsi.com.ar/",
+                "description": "Hacia el final del cursado de mi carrera este fue mi primer trabajo fijo en el área de Ingeniería Electrónica. Me encargué de la configuración y puesta en marcha del sistemas de control NanoScada2010 en el rubro de la industria eléctrica en plantas generadoras ubicadas a lo largo y ancho de todo el país (Argentina). Los sistemas vinculaban la producción de cada planta con CAMMESA, la compañía argentina encargada de operar el mercado eléctrico mayorista del país. "
+            },
+            {
+                "company": "Ternium Siderar - Techint ",
+                "title": "Pasante de Ingeniero Electrónico",
+                "location": "San Nicolás, Buenos Aires, Argentina",
+                "years": "ene 2015 - mar 2015",
+                "website": "https://ar.ternium.com/es",
+                "description": "Después de un largo proceso de selección durante el 2014 quedé seleccionado para las pasantías de verano realizadas en el gigante del acero. Mis tareas se abocaron al análisis del proceso de enfriado de las bobinas de acero para optimizar tiempos de producción e interiorizarme más del proceso en sí."
+            },
+            {
+                "company": "Papelera Rosato S.A.",
+                "title": "Pasante de secundaria",
+                "location": "Berazategui, Buenos Aires, Argentina",
+                "years": "ago 2008 - jul 2008",
+                "website": "",
+                "description": "Quedé seleccionado entre los estudiantes del último año de la secundaria, el Politécnico Escuela de Educación Técnica N°3 de Berazategui, para realizar una práctica educativa como pasante en el Parque Industrial de Plátanos."
+            },
+            {
+                "company": "Emprendimiento propio",
+                "title": "Técnico electrónico",
+                "location": "Rosario, Santa Fe, Argentina",
+                "years": "2012 - 2014",
+                "website": "",
+                "description": "Durante mis años de estudiante me dediqué en algunos ratos libres armar algunos de pedales de efectos para guitarra y otros circuitos de audio, con elaboración de la plaqueta, soldado de componentes y ensamblado final. No me llamaron de Fender pero aprendí mucho de electrónica."
+            }
+        ],
+        "skills": [
+            {
+                "name": "React",
+                "level": "95%",
+                "className": "fab fa-react"
+            },
+            {
+                "name": "React Native",
+                "level": "95%",
+                "className": "fab fa-react"
+            },
+            {
+                "name": "NodeJS",
+                "level": "95%",
+                "className": "fab fa-node-js"
+            },
+            {
+                "name": "Angular",
+                "level": "85%",
+                "className": "fab fa-angular"
+            },
+            {
+                "name": "Ionic",
+                "level": "85%",
+                "className": "fas fa-info"
+            },
+            {
+                "name": "Bootstrap",
+                "level": "60%",
+                "className": "fab fa-bootstrap"
+            },
+            {
+                "name": "Material Design",
+                "level": "85%",
+                "className": "fab fa-linkedin"
+            },
+            {
+                "name": "Typescript",
+                "level": "90%",
+                "className": "fab fa-js-square"
+            },
+            {
+                "name": "CSS",
+                "level": "85%",
+                "className": "fab fa-css3"
+            },
+            {
+                "name": "HTML5",
+                "level": "95%",
+                "className": "fab fa-html5"
+            },
+            {
+                "name": "MongoDB",
+                "level": "70%",
+                "className": "fas fa-database"
+            },
+            {
+                "name": "MySQL",
+                "level": "95%",
+                "className": "fas fa-database"
+            },
+            {
+                "name": "AWS",
+                "level": "75%",
+                "className": "fab fa-aws"
+            },
+            {
+                "name": "Linux",
+                "level": "65%",
+                "className": "fab fa-ubuntu"
+            },
+            {
+                "name": "Git",
+                "level": "50%",
+                "className": "fas fa-code-branch"
+            },
+            {
+                "name": "Arduino",
+                "level": "50%",
+                "className": "fas fa-microchip"
+            }
+        ],
+        "other": [
+            "Gestión de Dominios e IP",
+            "Trello",
+            "Excel Macros",
+            "Visual Basic 2010",
+            "Arduino",
+            "AutoCAD",
+            "Sistemas SCADA",
+            "Microcontroladores",
+            "NanoScada 2010 ",
+            "Adobe Illustrator",
+            "Adobe Photoshop",
+            "GIMP 2",
+            "Redes",
+            "Protocolo TCP/IP",
+            "http/https",
+            "ModBus",
+            "DNP",
+            "OPC",
+            "Elcom90"
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Canadian Wanderlust",
+                "category": "My Travel Blog for my post-university travels",
+                "image": "canadian-wanderlust.jpg",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Fury Fighting Gear",
+                "category": "(offline now) A fighting gear company I started",
+                "image": "fury-fighting-gear.jpg",
+                "url": "http://www.timbakerdev.com"
+            },
+            {
+                "title": "Original Thai Food",
+                "category": "Website I built for a restaurant I like in Thailand",
+                "image": "original-thai-food.jpg",
+                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+            },
+            {
+                "title": "Resume Website",
+                "category": "A React based resume website template",
+                "image": "resume-website.jpg",
+                "url": "http://www.timbakerdev.com"
+            },
+            {
+                "title": "Smirkspace",
+                "category": "(MVP Only) A React and Meteor based chat University project.",
+                "image": "smirkspace.jpg",
+                "url": "http://www.smirkspace.com"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [
+            {
+                "text": "Ningún hombre puede cruzar el mismo río dos veces, porque ni el hombre ni el agua serán los mismos",
+                "user": "Heráclito"
+            },
+            {
+                "text": "La vida es eso que te sucede mientras estás ocupado haciendo otros planes",
+                "user": "John Lennon"
+            },
+            {
+                "text": "Say No More",
+                "user": "Charly García"
+            }
+        ]
+    }
 }
