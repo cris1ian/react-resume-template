@@ -1,13 +1,13 @@
 {
     "main": {
         "name": "Cristian Martínez D'Urbano",
-        "occupation": "Ingeniero Electrónico y Desarrollador de Software",
-        "description": "\n\nMe considero una persona inquieta, curiosa, me fascina estar incorporando nuevos conocimientos en forma constante y me considero bastante creativo. \n \n Respecto de mi trabajo tengo mis áreas de expertise y me adapto con rapidez a nuevas tecnologías con lo cual fui formando un perfil ágil y versátil. Considero mi velocidad para aprender el motor que me trajo hasta aquí.",
+        "occupation": "Electronic Engineer & Software Developer",
+        "description": "\n\nI consider myself a very curious person, I love to be constantly incorporating new knowledge and I considery myself quite creative. \n \n About my work I have my expertise areas and I easily adapt to new technologies, this way I formed an agile profile. I think that learning speed is the steampunk enginge that brought me to this point.",
         "image": "profilepic.jpg",
-        "bio": "Me considero una persona muy proactiva, me gusta comprender a fondo las tecnologías que uso y estoy siempre a la vera de conocer cuál será el próximo salto tecnológico para sumarme a él \n Además de ello me gusta mucho el humor para el día a día laboral, fanático de los memes y los juegos de palabras. \n Por fuera de lo técnico me he enfocado también en pulir mis soft-skills y así he desarrollado también habilidades para coordinar equipos de trabajo y planificar procesos de desarrollo con el cliente. \n Me sigo olvidando el npm install.",
+        "bio": "I am quite proactive, I enjoy to deeply understand the technologies and concepts I'm using day to day, and I'm always eager to see what new technologies arrise to get quickly on that boat. \n I love humor, memes and wordplays, and I use them every day as much as I can to make my day (and my coworkers) a little easier. \n  Besides all the tecnhical stuff I also have worked on my soft skills giving me abilites to coordinate teamwork and discussing project deliveries with clients. \n I keep forgetting the npm install command",
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
         "email": "martinezdurbano@hotmail.com",
-        "birthdate": "2 de Noviembre de 1989",
+        "birthdate": "November the 2nd 1989",
         "phone": "54-341-3033009",
         "whatsappLink": "http://wa.me/5493413033009",
         "address": {
@@ -16,8 +16,8 @@
             "state": "Santa Fe",
             "zip": "S2013"
         },
-        "website": "http://www.timbakerdev.com",
-        "resumedownload": "http://timbakerdev.com",
+        "website": "http://www.eon6.com.ar",
+        "resumedownload": "http://eon6.com.ar",
         "social": [
             {
                 "name": "linkedin",
@@ -37,31 +37,31 @@
         ]
     },
     "resume": {
-        "skillmessage": "Éstas son mis principales skills y las tecnologías que he utilizado a lo largo de mi carrera",
+        "skillmessage": "These are my main skills and some of the technologies I'm most familiar with.",
         "education": [
             {
                 "school": "Universidad Nacional de Rosario - Facultad de Ciencias Exactas, Ingeniería y Agrimensura",
-                "degree": "Ingeniero Electrónico",
-                "graduated": "2009 - Actualidad",
-                "description": "Materias Aprobadas 39/40 (97,5 %). Tesis en curso"
+                "degree": "Electronic Engineer",
+                "graduated": "2009 - currently",
+                "description": "Approved subjects 39/40 (97,5 %). Working on the tesis"
             },
             {
                 "school": "German Burgardt",
-                "degree": "Tecnologías Web - Curso individual",
+                "degree": "Web Technlogies- Personalized course",
                 "graduated": "2019",
-                "description": "Durante un año estuve aprendiendo con un programador amigo mío con ya varios años de experiencia quien me fue enseñó lo fundamental para incorporarme al rubro y que me ayudó a encarar mis primeros proyectos como freelance."
+                "description": "During a whole year I studied with an already working web developer who taught me my first steps in the web desing area. He also helped me to bring to life my first freelancer jobs. I owe a lot to this person."
             },
             {
                 "school": "Udemy",
                 "degree": "Full Stack Web Developer",
                 "graduated": "2018",
-                "description": "Curso Online (+35hs) en el framework de AngularJS (Typescript, html, CSS)"
+                "description": "Online Course (+35hs) Angular (Typescript, html, CSS)"
             },
             {
                 "school": "Escuela Tecnológica Politécnico E.E.T. N3",
-                "degree": "Técnico en Instalaciones y Equipos Electromecánicos",
+                "degree": "Bachelor degree in Electromechanic Instalations and Equipments",
                 "graduated": "2018",
-                "description": "Título Secundario - Berazategui, Buenos Aires"
+                "description": "Bachelor degree - Berazategui, Buenos Aires"
             }
         ],
         "work": [
@@ -69,17 +69,17 @@
                 "company": "Right Partner",
                 "title": "Software Development Engineer",
                 "location": "Buenos Aires, Argentina",
-                "years": "feb 2020 / Actual.",
+                "years": "feb 2020 / currently",
                 "website": "https://www.rightpartner.io/",
-                "description": "Desarrollo de Aplicaciones Móviles y Páginas Web orientadas a brindar servicios a empresas de variados rubros (Sistemas de Stock, Petroleras, Estudios Contables). Me encargo del desarrollo FullStack de cada una de las aplicaciones, del trato con el cliente y de la gestión de proyecto para llevarlo a término. Durante el 2021 además empecé a coordinar equipos de trabajo dentro de la empresa. Además hago el seguimiento de proyecto junto a la par del cliente."
+                "description": "Mobile and Web developing in several system to provide augmented functionalities to several local and foreign enterprises (Stock systems, Oil companies, law firms). Here I'm in charge of the fullstack developing process of each one of the applications, discussing the project delivery with the client and coordinating team working in the maintenance of those apps."
             },
             {
-                "company": "Ministerio de Defensa de Argentina",
+                "company": "National Ministry of Defense",
                 "title": "Software Development Engineer",
                 "location": "Buenos Aires, Argentina",
-                "years": "mar 2020 / Actual.",
+                "years": "mar 2020 / currently",
                 "website": "https://www.argentina.gob.ar/defensa/",
-                "description": "Web Developer. Estuve desarrollando para el Ministerio de Defensa de la Nación aplicaciones que permitieron resolver cuestiones de logística frente a la pandemia de COVID-19. Entre ellas se cuentan un sistema de turnos de comercios para cientes y un sistema de turnos de vacunación para personal militar. Me encargué principalmente de la gestión de proyecto, coordinación de equipo y plazos de entrega. Fue uno de los desafíos más apremiantes en cuanto al tiempo. "
+                "description": "Web Developer. I were developing for the National Ministry of Defense some APPs that allowed to hanlde logistics matters during the COVID-19 pandemic. Amongst them there were an app with an appointment system for local commerces and a system for giving appointments in the vaccination process. I were in charge mainly of the project management, team coordination and delivery dates. This was one of the most difficult challenges I had in my career as developer due to the short delivery times we had."
             },
             {
                 "company": "Eon6",
@@ -87,47 +87,47 @@
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "feb 2018 / feb 2020",
                 "website": "https://www.eon6.com.ar/",
-                "description": "Desarrollo de Páginas Web y de aplicaciones móviles. Mi proyecto más ambicioso hasta la fecha. A finales del 2018 formé Eon6 y fui conformando un equipo de trabajo que fue creciendo y dándole trabajo a chicos con gran potencial como developers. Fuimos creciendo desde ser 2 Devs hasta un pequeño equipo de trabajo de 8 personas que busca seguir creciendo. Me desenvuelvo como líder técnico a la hora de resolver dificultades con el equipo, de la gestión de proyectos, de varias tareas administrativas y de la dirección general de la empresa."
+                "description": "Web and Mobile Development. One of my most ambicious projects so far. By the end of 2018 I funded Eon6, a small team of developers that started to grow and give new job opportunities to local people. We started as two friends and ended up with a team of 8 people working together and trying to gain more market. Here my role was a as a CEO, project leader and tecnhical consultor. We started small, and realized we had something nice in our hands."
             },
             {
                 "company": "Magrathea",
-                "title": "Microemprendimiento",
+                "title": "Micro-entrepreneurship",
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "mar 2018 / jul 2019",
                 "website": "",
-                "description": "Magrathea fue un pequeño proyecto de automatización y control desarrollado en C++ con un compañero de facultad basado en microcontroladores Arduino. Luego según su crecimiento fue migrándose a un microcontrolador más potente como el NodeMCU que además nos brindó funcionalidades de red WiFi. Lamentablemente nunca llegó a concretarse ya que fueron surgiendo otros trabajos y fue quedando en el olvido. Espero en algún momento poder retomarlo."
+                "description": "Magrathea consisted of a little automatization project in C++ using Arduino microcontrollers, then we migrated to a more powerful Microcontroller Unit, the NodeMCU wich provided better performance and WiFi features. Sadly we never got to a first version of the product due to some other jobs that took the lead at that time. I hope to be able to continue it in some close future."
             },
             {
                 "company": "Tiempo Real SOTR",
-                "title": "Ingeniero Electrónico",
+                "title": "Electronic Engineer",
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "oct 2016 / oct 2018",
                 "website": "https://www.trsi.com.ar/",
-                "description": "Hacia el final del cursado de mi carrera este fue mi primer trabajo fijo en el área de Ingeniería Electrónica. Me encargué de la configuración y puesta en marcha del sistemas de control NanoScada2010 en el rubro de la industria eléctrica en plantas generadoras ubicadas a lo largo y ancho de todo el país (Argentina). Los sistemas vinculaban la producción de cada planta con CAMMESA, la compañía argentina encargada de operar el mercado eléctrico mayorista del país. "
+                "description": "By the end of my university career I got this job, this one were my first job in the engineering field. In Tiempo Real I configured and installed industrial control systems, in the electricity generation field in power plants located all along the country (Argentina). The systems informed of the production of each power plant to CAMMESA, an entity that is in charge in regulating the wholesale electricity market in Argentina."
             },
             {
                 "company": "Ternium Siderar - Techint ",
-                "title": "Pasante de Ingeniero Electrónico",
+                "title": "Electronic Engineer Internship",
                 "location": "San Nicolás, Buenos Aires, Argentina",
-                "years": "ene 2015 - mar 2015",
+                "years": "jan 2015 - mar 2015",
                 "website": "https://ar.ternium.com/es",
-                "description": "Después de un largo proceso de selección durante el 2014 quedé seleccionado para las pasantías de verano realizadas en el gigante del acero. Mis tareas se abocaron al análisis del proceso de enfriado de las bobinas de acero para optimizar tiempos de producción e interiorizarme más del proceso en sí."
+                "description": "After a long selection process during 2014 I was selected for the summer internships of Ternium Siderar, one of the biggest steel manufacturer in the country and the world. Here I worked analysing the batch cooling process of hot steel coils."
             },
             {
                 "company": "Papelera Rosato S.A.",
-                "title": "Pasante de secundaria",
+                "title": "Bachelor Internship",
                 "location": "Berazategui, Buenos Aires, Argentina",
                 "years": "ago 2008 - jul 2008",
                 "website": "",
-                "description": "Quedé seleccionado entre los estudiantes del último año de la secundaria, el Politécnico Escuela de Educación Técnica N°3 de Berazategui, para realizar una práctica educativa como pasante en el Parque Industrial de Plátanos."
+                "description": "This was an educational practice done in the Technolical Conglomerate in my town during my last year of school."
             },
             {
-                "company": "Emprendimiento propio",
-                "title": "Técnico electrónico",
+                "company": "Personal entrepreneurship",
+                "title": "Electronic Tech",
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "2012 - 2014",
                 "website": "",
-                "description": "Durante mis años de estudiante me dediqué en algunos ratos libres armar algunos de pedales de efectos para guitarra y otros circuitos de audio, con elaboración de la plaqueta, soldado de componentes y ensamblado final. No me llamaron de Fender pero aprendí mucho de electrónica."
+                "description": "During some of my student years I assembled some guitar effects pedals, I got the blue prints from Internet and build them up for some time. I didn't get a phone call from Fender but I learned a lot of circuits."
             }
         ],
         "skills": [
@@ -213,20 +213,20 @@
             }
         ],
         "other": [
-            "Gestión de Dominios e IP",
+            "Domains and IP managint",
             "Trello",
             "Excel Macros",
             "Visual Basic 2010",
             "Arduino",
             "AutoCAD",
-            "Sistemas SCADA",
-            "Microcontroladores",
+            "SCADA Industrial Systems",
+            "Microcontrollers",
             "NanoScada 2010 ",
             "Adobe Illustrator",
             "Adobe Photoshop",
             "GIMP 2",
-            "Redes",
-            "Protocolo TCP/IP",
+            "Networks",
+            "TCP/IP Protocol",
             "http/https",
             "ModBus",
             "DNP",
@@ -234,10 +234,10 @@
             "Elcom90"
         ],
         "extraCurricular": [
-            "Toco guitarra, canto (a veces hasta afino).",
-            "Hago acrobacia aérea, trapecio principalmente.",
-            "Olimpíada Matemática Argentina ed. 2005 y 2006.",
-            "Actor de Teatro. Obras: \n\t\tJuan Darién (2019 Teatro La Comedia)\n\t\tCon el Alma Concert (2019)\n\t\tSolo Dame 5 Razones (2017–2018)\n\t\tLo Mismo Pero Al Revés (2014-2015)\n\t\t$49,90 - Todo Se Puede Comprar (2015–2016.)\n\t\tLa Siniestra (2014)"
+            "I play some guitar, I sing (sometimes I even hit the notes).",
+            "Aereal trapeeze, and some other acrobatics",
+            "Mathematics Olympics of Argentina ed. 2005 y 2006.",
+            "Theater Actor. Plays: \n\t\tJuan Darién (2019 Theater La Comedia)\n\t\tCon el Alma Concert (2019)\n\t\tSolo Dame 5 Razones (2017–2018)\n\t\tLo Mismo Pero Al Revés (2014-2015)\n\t\t$49,90 - Todo Se Puede Comprar (2015–2016.)\n\t\tLa Siniestra (2014)"
         ]
     },
     "portfolio": {
@@ -277,11 +277,11 @@
     "testimonials": {
         "testimonials": [
             {
-                "text": "Ningún hombre puede cruzar el mismo río dos veces, porque ni el hombre ni el agua serán los mismos",
-                "user": "Heráclito"
+                "text": "No man ever steps in the same river twice. For it’s not the same river and he’s not the same man",
+                "user": "Heráclitus"
             },
             {
-                "text": "La vida es eso que te sucede mientras estás ocupado haciendo otros planes",
+                "text": "Life is what happens to us while we are busy making other plans",
                 "user": "John Lennon"
             },
             {

@@ -23,11 +23,11 @@ export default function About(props) {
                     <img className="profile-pic" src={profilepic} alt="Profile Pic" />
                 </div>
                 <div className="nine columns main-col">
-                    <h2>Acerca de mí</h2>
+                    <h2>About me</h2>
                     <p>{bio}</p>
                     <div className="row">
                         <div className="columns contact-details">
-                            <h2>Detalles de contacto</h2>
+                            <h2>Contact details</h2>
                             <p className="address">
                                 <span>{name}</span><br />
                                 <span>{birthdate}</span><br />
@@ -38,7 +38,7 @@ export default function About(props) {
                         </div>
                         {renderDownloadButton ? <div className="columns download">
                             <p>
-                                <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Descargar CV</a>
+                                <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download CV</a>
                             </p>
                         </div> : null}
                     </div>

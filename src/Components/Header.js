@@ -24,15 +24,15 @@ class Header extends Component {
 
                 {renderHeaderNav ? <nav id="nav-wrap">
 
-                    <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Mostrar navegación</a>
-                    <a className="mobile-btn" href="#home" title="Hide navigation">Ocultar navegación</a>
+                    <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+                    <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
                     <ul id="nav" className="nav">
                         <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                        <li><a className="smoothscroll" href="#about">Acerca</a></li>
+                        <li><a className="smoothscroll" href="#about">About</a></li>
                         <li><a className="smoothscroll" href="#resume">CV</a></li>
                         {/* <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li> */}
-                        <li><a className="smoothscroll" href="#testimonials">Referencias</a></li>
+                        <li><a className="smoothscroll" href="#testimonials">References</a></li>
                         {/* <li><a className="smoothscroll" href="#contact">Contacto</a></li> */}
                     </ul>
 
@@ -41,7 +41,7 @@ class Header extends Component {
                 <div className="row banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline">{name}</h1>
-                        <h3>Soy un <span>{occupation}</span> viviendo en {city}. {description}.</h3>
+                        <h3>I'm an <span>{occupation}</span> living in {city}. {description}.</h3>
                         <hr />
                         <ul className="social">
                             {networks}

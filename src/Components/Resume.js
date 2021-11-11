@@ -60,7 +60,7 @@ class Resume extends Component {
 
                 <div className="row education">
                     <div className="three columns header-col">
-                        <h1><span>Formación</span></h1>
+                        <h1><span>Studies</span></h1>
                     </div>
 
                     <div className="nine columns main-col">
@@ -75,7 +75,7 @@ class Resume extends Component {
                 <div className="row work">
 
                     <div className="three columns header-col">
-                        <h1><span>Experiencia</span></h1>
+                        <h1><span>Experience</span></h1>
                     </div>
 
                     <div className="nine columns main-col">
@@ -86,7 +86,7 @@ class Resume extends Component {
                 <div className="row skill">
 
                     <div className="three columns header-col">
-                        <h1><span>Habilidades</span></h1>
+                        <h1><span>Skills</span></h1>
                     </div>
 
                     <div className="nine columns main-col">
@@ -104,7 +104,7 @@ class Resume extends Component {
                 <div className="row work">
 
                     <div className="three columns header-col">
-                        <h1><span>Otras</span></h1>
+                        <h1><span>Other</span></h1>
                     </div>
 
                     <div className="nine columns main-col other">
@@ -115,7 +115,7 @@ class Resume extends Component {
                 <div className="row work">
 
                     <div className="three columns header-col">
-                        <h1><span className="extra-curricular-title" >Intereses y actividades extra curriculares</span></h1>
+                        <h1><span className="extra-curricular-title">Extra curricular activities</span></h1>
                     </div>
 
                     <div className="nine columns main-col other">
