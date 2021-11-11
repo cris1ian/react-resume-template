@@ -33,7 +33,7 @@ export default function About(props) {
                                 <span>{birthdate}</span><br />
                                 <span><a href={`mailto:${email}`} target='_blank'>{email}</a></span><br />
                                 <span><a href={whatsappLink} target='_blank'>{phone}</a></span><br />
-                                <span>{street},{city} {state}, {zip}</span><br />
+                                <span>{street}, {city} {state}, {zip}</span><br />
                             </p>
                         </div>
                         {renderDownloadButton ? <div className="columns download">
