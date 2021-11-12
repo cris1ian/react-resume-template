@@ -1,0 +1,30 @@
+{
+    "main": {
+        "showNavigation": "Mostrar Navegación",
+        "hideNavigation": "Ocultar Navegación",
+        "home": "Home",
+        "about": "Acerca",
+        "resume": "CV",
+        "portfolio": "Portfolio",
+        "testimonials": "Referencias",
+        "contact": "Contacto",
+        "livingIn": "viviendo en",
+        "iAmAn": "Soy un",
+        "aboutMe": "Acerca de mí",
+        "contactDetails": "Detalles de contacto",
+        "downloadCv": "Descargar CV"
+    },
+    "resume": {
+        "studies": "Formación",
+        "experience": "Experiencia",
+        "skills": "Habilidades",
+        "other": "Otras",
+        "extraCurricular": "Actividades extra curriculares"
+    },
+    "portfolio": {
+        "headerText": "Estos son algunos de mis proyectos."
+    },
+    "testimonials": {
+        "references": "References"
+    }
+}

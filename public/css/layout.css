@@ -168,8 +168,9 @@ ul#nav {
     min-height: 48px;
     width: auto;
 
-    /* center align the menu */
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 ul#nav li {
     position: relative;
@@ -201,6 +202,19 @@ ul#nav li a:active {
 }
 ul#nav li.current a {
     color: #f06000;
+}
+
+#nav button {
+    background-color: transparent !important;
+    align-items: center;
+    display: flex;
+    padding: 8px 13px;
+    margin-bottom: 0;
+}
+
+#nav button i {
+    font-size: 18px;
+    margin-right: 5px;
 }
 
 /* ------------------------------------------------------------------ */

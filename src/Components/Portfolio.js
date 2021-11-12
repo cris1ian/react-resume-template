@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class Portfolio extends Component {
   render() {
+    const text = this.props.text || {};
 
     if (this.props.data) {
       var projects = this.props.data.projects.map(function (projects) {
@@ -30,7 +31,7 @@ class Portfolio extends Component {
 
           <div className="twelve columns collapsed">
 
-            <h1>Estos son algunos de mis proyectos.</h1>
+            <h1>{text.headerText}</h1>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               {projects}

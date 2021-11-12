@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
@@ -10,27 +10,34 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
-class App extends Component {
+const USE_PRINTABLE_VERSION = false;
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      foo: 'bar',
-      resumeData: {}
-    };
+export default function App(props) {
+  const [useSpanish, setUseSpanish] = useState(true);
+  const [resumeData, setResumeData] = useState({});
+  const [resumeText, setResumeText] = useState({});
 
+  useEffect(() => {
     ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
+  }, [])
 
+  useEffect(() => {
+    getResumeData();
+    getResumeText();
+  }, [useSpanish])
+
+  const toggleLanguage = () => {
+    setUseSpanish(!useSpanish);
   }
 
-  getResumeData() {
+  const getResumeData = () => {
     $.ajax({
-      url: '/resumeDataEnglish.json',
+      url: useSpanish ? '/resumeDataSpanish.json' : '/resumeDataEnglish.json',
       dataType: 'json',
       cache: false,
       success: function (data) {
-        this.setState({ resumeData: data });
+        setResumeData(data)
       }.bind(this),
       error: function (xhr, status, err) {
         console.log(err);
@@ -39,23 +46,30 @@ class App extends Component {
     });
   }
 
-  componentDidMount() {
-    this.getResumeData();
+  const getResumeText = () => {
+    $.ajax({
+      url: useSpanish ? '/resumeTextSpanish.json' : '/resumeTextEnglish.json',
+      dataType: 'json',
+      cache: false,
+      success: function (data) {
+        setResumeText(data)
+      }.bind(this),
+      error: function (xhr, status, err) {
+        console.log(err);
+        alert(err);
+      }
+    });
   }
 
-  render() {
-    return (
-      <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
-        <Testimonials data={this.state.resumeData.testimonials} />
-        {/* <Contact data={this.state.resumeData.main} /> */}
-        <Footer data={this.state.resumeData.main} />
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <Header data={resumeData.main} text={resumeText.main} useSpanish={useSpanish} toggleLanguage={toggleLanguage} isPrintableVersion={USE_PRINTABLE_VERSION} />
+      <About data={resumeData.main} text={resumeText.main} isPrintableVersion={USE_PRINTABLE_VERSION} />
+      <Resume data={resumeData.resume} text={resumeText.resume} />
+      {/* <Portfolio data={resumeData.portfolio} text={}/> resumeText.portfolio*/}
+      <Testimonials data={resumeData.testimonials} text={resumeText.testimonials} />
+      {/* <Contact data={resumeData.main} text={}/> resumeText.main*/}
+      <Footer data={resumeData.main} text={resumeText.main} />
+    </div>
+  );
 }
-
-export default App;

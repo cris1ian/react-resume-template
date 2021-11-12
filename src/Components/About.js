@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 export default function About(props) {
-    const renderDownloadButton = false;
+    const hideDownloadButton = props.isPrintableVersion;
+    const text = props.text || {};
 
     const name = props.data && props.data.name;
     const profilepic = props.data && "images/" + props.data.image;
@@ -23,24 +24,27 @@ export default function About(props) {
                     <img className="profile-pic" src={profilepic} alt="Profile Pic" />
                 </div>
                 <div className="nine columns main-col">
-                    <h2>About me</h2>
+                    <h2>{text.aboutMe}</h2>
                     <p>{bio}</p>
                     <div className="row">
                         <div className="columns contact-details">
-                            <h2>Contact details</h2>
+                            <h2>{text.contactDetails}</h2>
                             <p className="address">
                                 <span>{name}</span><br />
                                 <span>{birthdate}</span><br />
                                 <span><a href={`mailto:${email}`} target='_blank'>{email}</a></span><br />
                                 <span><a href={whatsappLink} target='_blank'>{phone}</a></span><br />
-                                <span>{street}, {city} {state}, {zip}</span><br />
+                                <span>{city}, {state}</span><br />
+                                {/* <span>{street}, {city} {state}, {zip}</span><br /> */}
                             </p>
                         </div>
-                        {renderDownloadButton ? <div className="columns download">
-                            <p>
-                                <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download CV</a>
-                            </p>
-                        </div> : null}
+                        {hideDownloadButton ? null :
+                            <div className="columns download">
+                                <p>
+                                    <a href={resumeDownload} className="button"><i className="fa fa-download"></i>{text.downloadCv}</a>
+                                </p>
+                            </div>
+                        }
                     </div>
                 </div>
             </div >

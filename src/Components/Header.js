@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 class Header extends Component {
 
     render() {
-        const renderHeaderNav = false;
+        const renderHeaderNav = !this.props.isPrintableVersion;
+        const text = this.props.text || {};
 
         if (this.props.data) {
             var name = this.props.data.name;
@@ -24,16 +25,21 @@ class Header extends Component {
 
                 {renderHeaderNav ? <nav id="nav-wrap">
 
-                    <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-                    <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+                    <a className="mobile-btn" href="#nav-wrap" title="Show navigation">{text.showNavigation}</a>
+                    <a className="mobile-btn" href="#home" title="Hide navigation">{text.hideNavigation}</a>
 
                     <ul id="nav" className="nav">
-                        <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                        <li><a className="smoothscroll" href="#about">About</a></li>
-                        <li><a className="smoothscroll" href="#resume">CV</a></li>
-                        {/* <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li> */}
-                        <li><a className="smoothscroll" href="#testimonials">References</a></li>
-                        {/* <li><a className="smoothscroll" href="#contact">Contacto</a></li> */}
+                        <li className="current"><a className="smoothscroll" href="#home">{text.home}</a></li>
+                        <li><a className="smoothscroll" href="#about">{text.about}</a></li>
+                        <li><a className="smoothscroll" href="#resume">{text.resume}</a></li>
+                        {/* <li><a className="smoothscroll" href="#portfolio">{text.portfolio}</a></li> */}
+                        <li><a className="smoothscroll" href="#testimonials">{text.testimonials}</a></li>
+                        {/* <li><a className="smoothscroll" href="#contact">{text.contact}</a></li> */}
+                        <li>
+                            <button onClick={this.props.toggleLanguage}>
+                                <i class="fas fa-language" />{this.props.useSpanish ? ' Español' : ' English'}
+                            </button>
+                        </li>
                     </ul>
 
                 </nav> : null}
@@ -41,7 +47,7 @@ class Header extends Component {
                 <div className="row banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline">{name}</h1>
-                        <h3>I'm an <span>{occupation}</span> living in {city}. {description}.</h3>
+                        <h3>{text.iAmAn} <span>{occupation}</span> {text.livingIn} {city}. {description}.</h3>
                         <hr />
                         <ul className="social">
                             {networks}
