@@ -21,9 +21,9 @@ class Header extends Component {
         }
 
         return (
-            <header id="home" >
+            <header id="home">
 
-                {renderHeaderNav ? <nav id="nav-wrap">
+                <nav id="nav-wrap" className="printable-hide">
 
                     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">{text.showNavigation}</a>
                     <a className="mobile-btn" href="#home" title="Hide navigation">{text.hideNavigation}</a>
@@ -37,12 +37,12 @@ class Header extends Component {
                         {/* <li><a className="smoothscroll" href="#contact">{text.contact}</a></li> */}
                         <li>
                             <button onClick={this.props.toggleLanguage}>
-                                <i class="fas fa-language" />{this.props.useSpanish ? ' Español' : ' English'}
+                                <i className="fas fa-language" />{this.props.useSpanish ? ' Español' : ' English'}
                             </button>
                         </li>
                     </ul>
 
-                </nav> : null}
+                </nav>
 
                 <div className="row banner">
                     <div className="banner-text">
@@ -55,10 +55,10 @@ class Header extends Component {
                     </div>
                 </div>
 
-                <p className="scrolldown">
+
+                <p className="scrolldown printable-hide">
                     <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
                 </p>
-
             </header>
         );
     }

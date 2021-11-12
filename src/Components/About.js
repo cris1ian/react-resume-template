@@ -19,7 +19,7 @@ export default function About(props) {
 
     return (
         <section id="about">
-            <div className="row">
+            <div className="row avoid-page-break">
                 <div className="three columns">
                     <img className="profile-pic" src={profilepic} alt="Profile Pic" />
                 </div>
@@ -38,13 +38,11 @@ export default function About(props) {
                                 {/* <span>{street}, {city} {state}, {zip}</span><br /> */}
                             </p>
                         </div>
-                        {hideDownloadButton ? null :
-                            <div className="columns download">
-                                <p>
-                                    <a href={resumeDownload} className="button"><i className="fa fa-download"></i>{text.downloadCv}</a>
-                                </p>
-                            </div>
-                        }
+                        <div className="columns download printable-hide">
+                            <p>
+                                <a href={resumeDownload} className="button"><i className="fa fa-download"></i>{text.downloadCv}</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div >

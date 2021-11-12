@@ -8,7 +8,7 @@ class Resume extends Component {
       var skillmessage = this.props.data.skillmessage;
 
       var education = this.props.data.education.map(function (education) {
-        return <div key={education.school}>
+        return <div key={education.school} className={"avoid-page-break"}>
           <h3>{education.school}</h3>
           <p className="info">
             {education.degree}
@@ -20,7 +20,7 @@ class Resume extends Component {
       })
 
       var work = this.props.data.work.map(function (work) {
-        return <div key={work.company}>
+        return <div key={work.company} className={"avoid-page-break"}>
           <h3>{work.company}</h3>
           <p className="info">
             {work.title}
@@ -52,14 +52,18 @@ class Resume extends Component {
       )
 
       var extraCurricular = this.props.data.extraCurricular.map((extraCurricular) =>
-        <li key={extraCurricular}><em className={"extra-curricular-body"}>{extraCurricular}</em></li>
+        <li key={extraCurricular}>
+          <em className={"extra-curricular-body"}>
+            {extraCurricular}
+          </em>
+        </li>
       )
     }
 
     return (
-      <section id="resume">
+      <section id="resume" >
 
-        <div className="row education">
+        <div className="row education new-page-break">
           <div className="three columns header-col">
             <h1><span>{text.studies}</span></h1>
           </div>
@@ -102,7 +106,7 @@ class Resume extends Component {
           </div>
         </div>
 
-        <div className="row work">
+        <div className="row work avoid-page-break">
 
           <div className="three columns header-col">
             <h1><span>{text.other}</span></h1>
@@ -113,7 +117,7 @@ class Resume extends Component {
           </div>
         </div>
 
-        <div className="row work">
+        <div className="row work avoid-page-break">
 
           <div className="three columns header-col">
             <h1><span className="extra-curricular-title">{text.extraCurricular}</span></h1>
