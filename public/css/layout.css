@@ -22,9 +22,9 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body {
-    background: #0f0f0f;
-}
+/* body { */
+/* background: #0f0f0f; */
+/* } */
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -52,6 +52,8 @@ header:before {
 header .banner {
     display: inline-block;
     vertical-align: middle;
+    /* display: flex; */
+    /* justify-content: center; */
     margin: 0 auto;
     width: 85%;
     padding-bottom: 30px;
@@ -324,6 +326,7 @@ ul#nav li.current a {
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e8e8e8;
+    /* display: flex; */
 }
 #resume .info {
     font: 16px/24px "librebaskerville-italic", serif;

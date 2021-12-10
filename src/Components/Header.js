@@ -23,28 +23,30 @@ class Header extends Component {
         return (
             <header id="home">
 
-                <nav id="nav-wrap" className="printable-hide">
+                <nav id="nav-wrap" >
+                    <div className="printable-hide">
 
-                    <a className="mobile-btn" href="#nav-wrap" title="Show navigation">{text.showNavigation}</a>
-                    <a className="mobile-btn" href="#home" title="Hide navigation">{text.hideNavigation}</a>
+                        {/* <a className="mobile-btn" href="#nav-wrap" title="Show navigation">{text.showNavigation}</a> */}
+                        {/* <a className="mobile-btn" href="#home" title="Hide navigation">{text.hideNavigation}</a> */}
 
-                    <ul id="nav" className="nav">
-                        <li className="current"><a className="smoothscroll" href="#home">{text.home}</a></li>
-                        <li><a className="smoothscroll" href="#about">{text.about}</a></li>
-                        <li><a className="smoothscroll" href="#resume">{text.resume}</a></li>
-                        {/* <li><a className="smoothscroll" href="#portfolio">{text.portfolio}</a></li> */}
-                        <li><a className="smoothscroll" href="#testimonials">{text.testimonials}</a></li>
-                        {/* <li><a className="smoothscroll" href="#contact">{text.contact}</a></li> */}
-                        <li>
-                            <button onClick={this.props.toggleLanguage}>
-                                <i className="fas fa-language" />{this.props.useSpanish ? ' Español' : ' English'}
-                            </button>
-                        </li>
-                    </ul>
+                        <ul id="nav" className="nav">
+                            <li className="current"><a className="smoothscroll" href="#home">{text.home}</a></li>
+                            <li><a className="smoothscroll" href="#about">{text.about}</a></li>
+                            <li><a className="smoothscroll" href="#resume">{text.resume}</a></li>
+                            {/* <li><a className="smoothscroll" href="#portfolio">{text.portfolio}</a></li> */}
+                            <li><a className="smoothscroll" href="#testimonials">{text.testimonials}</a></li>
+                            {/* <li><a className="smoothscroll" href="#contact">{text.contact}</a></li> */}
+                            <li>
+                                <button onClick={this.props.toggleLanguage}>
+                                    <i className="fas fa-language" />{this.props.useSpanish ? ' Español' : ' English'}
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
 
                 </nav>
 
-                <div className="row banner">
+                <div className="row banner avoid-page-break">
                     <div className="banner-text">
                         <h1 className="responsive-headline">{name}</h1>
                         <h3>{text.iAmAn} <span>{occupation}</span> {text.livingIn} {city}. {description}.</h3>

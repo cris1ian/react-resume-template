@@ -1,0 +1,17 @@
+.flexMe {
+    display: flex;
+}
+
+.titleContainer {
+    /* background-color: green; */
+    /* margin-left: 2vw;
+    margin-right: 2vw; */
+    /* width: 25%; */
+    max-height: 200px;
+}
+
+.worksContainer {
+    /* width: 75%; */
+    padding: 0 20px;
+    min-height: 1px;
+}

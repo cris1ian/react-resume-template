@@ -1,0 +1,18 @@
+#about .main-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#about .details-container {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+#about .profile-pic {
+    margin-top: 40px;
+    width: 180px;
+    height: unset;
+}

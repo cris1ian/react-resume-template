@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './about.module.css';
 
 export default function About(props) {
     const hideDownloadButton = props.isPrintableVersion;
@@ -18,16 +19,16 @@ export default function About(props) {
     const resumeDownload = props.data && props.data.resumedownload;
 
     return (
-        <section id="about">
-            <div className="row avoid-page-break">
+        <section id="about" className="remove-margin-on-print">
+            <div className="text-container avoid-page-break main-container">
                 <div className="three columns">
                     <img className="profile-pic" src={profilepic} alt="Profile Pic" />
                 </div>
                 <div className="nine columns main-col">
                     <h2>{text.aboutMe}</h2>
                     <p>{bio}</p>
-                    <div className="row">
-                        <div className="columns contact-details">
+                    <div className="details-container">
+                        <div className="contact-details">
                             <h2>{text.contactDetails}</h2>
                             <p className="address">
                                 <span>{name}</span><br />
@@ -38,8 +39,8 @@ export default function About(props) {
                                 {/* <span>{street}, {city} {state}, {zip}</span><br /> */}
                             </p>
                         </div>
-                        <div className="columns download printable-hide">
-                            <p>
+                        <div className="columns download">
+                            <p className="printable-hide">
                                 <a href={resumeDownload} className="button"><i className="fa fa-download"></i>{text.downloadCv}</a>
                             </p>
                         </div>

@@ -4,7 +4,7 @@
         "occupation": "Ingeniero Electrónico y Desarrollador de Software",
         "description": "\n\nMe considero una persona inquieta, curiosa, me fascina estar incorporando nuevos conocimientos en forma constante y me considero bastante creativo. \n \n Respecto de mi trabajo tengo mis áreas de expertise y me adapto con rapidez a nuevas tecnologías con lo cual fui formando un perfil ágil y versátil. Considero mi velocidad para aprender el motor que me trajo hasta aquí.",
         "image": "profilepic.jpg",
-        "bio": "Me considero una persona muy proactiva, me gusta comprender a fondo las tecnologías que uso y estoy siempre a la vera de conocer cuál será el próximo salto tecnológico para sumarme a él \n Además de ello me gusta mucho el humor para el día a día laboral, fanático de los memes y los juegos de palabras. \n Por fuera de lo técnico me he enfocado también en pulir mis soft-skills y así he desarrollado también habilidades para coordinar equipos de trabajo y planificar procesos de desarrollo con el cliente. \n Me sigo olvidando el npm install.",
+        "bio": "Me considero una persona proactiva, me gusta comprender a fondo las tecnologías que uso y estoy siempre a la vera de conocer cuál será el próximo salto tecnológico para sumarme a él. Además de ello me gusta mucho el humor para el día a día laboral, fanático de los memes y los juegos de palabras. \n Por fuera de lo técnico me he enfocado también en pulir mis soft-skills y así he desarrollado también habilidades para coordinar equipos de trabajo y planificar procesos de desarrollo con el cliente. \n Me sigo olvidando el npm install.",
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
         "email": "martinezdurbano@hotmail.com",
         "birthdate": "2 de Noviembre de 1989",
@@ -66,7 +66,7 @@
         ],
         "work": [
             {
-                "company": "Right Partner",
+                "company": "Right Partner / Ahora Doctor",
                 "title": "Software Development Engineer",
                 "location": "Buenos Aires, Argentina",
                 "years": "feb 2020 / Actual.",
