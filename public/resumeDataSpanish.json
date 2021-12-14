@@ -4,7 +4,7 @@
         "occupation": "Ingeniero Electrónico y Desarrollador de Software",
         "description": "\n\nMe considero una persona inquieta, curiosa, me fascina estar incorporando nuevos conocimientos en forma constante y me considero bastante creativo. \n \n Respecto de mi trabajo tengo mis áreas de expertise y me adapto con rapidez a nuevas tecnologías con lo cual fui formando un perfil ágil y versátil. Considero mi velocidad para aprender el motor que me trajo hasta aquí.",
         "image": "profilepic.jpg",
-        "bio": "Me considero una persona muy proactiva, me gusta comprender a fondo las tecnologías que uso y estoy siempre a la vera de conocer cuál será el próximo salto tecnológico para sumarme a él \n Además de ello me gusta mucho el humor para el día a día laboral, fanático de los memes y los juegos de palabras. \n Por fuera de lo técnico me he enfocado también en pulir mis soft-skills y así he desarrollado también habilidades para coordinar equipos de trabajo y planificar procesos de desarrollo con el cliente. \n Me sigo olvidando el npm install.",
+        "bio": "Me considero una persona muy proactiva, me gusta comprender a fondo las tecnologías que uso y estoy siempre a la vera de conocer cuál será el próximo salto tecnológico para sumarme a él. Además de ello me gusta mucho el humor para el día a día laboral, fanático de los memes y los juegos de palabras. \n Por fuera de lo técnico me he enfocado también en pulir mis soft-skills y así he desarrollado también habilidades para coordinar equipos de trabajo y planificar procesos de desarrollo con el cliente. \n Me sigo olvidando el npm install.",
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
         "email": "martinezdurbano@hotmail.com",
         "birthdate": "2 de Noviembre de 1989",
@@ -71,7 +71,27 @@
                 "location": "Buenos Aires, Argentina",
                 "years": "feb 2020 / Actual.",
                 "website": "https://www.rightpartner.io/",
-                "description": "Desarrollo de Aplicaciones Móviles y Páginas Web orientadas a brindar servicios a empresas de variados rubros (Sistemas de Stock, Petroleras, Estudios Contables). Me encargo del desarrollo FullStack de cada una de las aplicaciones, del trato con el cliente y de la gestión de proyecto para llevarlo a término. Durante el 2021 además empecé a coordinar equipos de trabajo dentro de la empresa. Además hago el seguimiento de proyecto junto a la par del cliente."
+                "description": "Desarrollo de Aplicaciones Móviles y Páginas Web orientadas a brindar servicios a empresas de variados rubros (Sistemas de Stock, Petroleras, Estudios Contables). Me encargo del desarrollo FullStack de cada una de las aplicaciones, del trato con el cliente y de la gestión de proyecto para llevarlo a término. Durante el 2021 empecé a coordinar equipos de trabajo dentro de la empresa. Además hago el seguimiento de proyecto junto a la par del cliente.",
+                "technologies": [
+                    "Angular",
+                    "Ionic",
+                    "Typescript",
+                    "NodeJS",
+                    "ExpressJS",
+                    "MongoDB",
+                    "Mongoose",
+                    "JWT",
+                    "Git",
+                    "GitHub",
+                    "GitLab",
+                    "AWS",
+                    "Docker",
+                    "Firebase",
+                    "ReactJS",
+                    "React Native",
+                    "Linux",
+                    "MySQL"
+                ]
             },
             {
                 "company": "Ministerio de Defensa de Argentina",
@@ -79,7 +99,15 @@
                 "location": "Buenos Aires, Argentina",
                 "years": "mar 2020 / Actual.",
                 "website": "https://www.argentina.gob.ar/defensa/",
-                "description": "Web Developer. Estuve desarrollando para el Ministerio de Defensa de la Nación aplicaciones que permitieron resolver cuestiones de logística frente a la pandemia de COVID-19. Entre ellas se cuentan un sistema de turnos de comercios para cientes y un sistema de turnos de vacunación para personal militar. Me encargué principalmente de la gestión de proyecto, coordinación de equipo y plazos de entrega. Fue uno de los desafíos más apremiantes en cuanto al tiempo. "
+                "description": "Web Developer. Estuve desarrollando para el Ministerio de Defensa de la Nación aplicaciones que permitieron resolver cuestiones de logística frente a la pandemia de COVID-19. Entre ellas se cuentan un sistema de turnos de comercios para cientes y un sistema de turnos de vacunación para personal militar. Me encargué principalmente de la gestión de proyecto, coordinación de equipo y plazos de entrega. Fue uno de los desafíos más apremiantes en cuanto al tiempo. ",
+                "technologies": [
+                    "Angular",
+                    "Ionic",
+                    "Typescript",
+                    "NodeJS",
+                    "ExpressJS",
+                    "MySQL"
+                ]
             },
             {
                 "company": "Eon6",
@@ -87,7 +115,27 @@
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "feb 2018 / feb 2020",
                 "website": "https://www.eon6.com.ar/",
-                "description": "Desarrollo de Páginas Web y de aplicaciones móviles. Mi proyecto más ambicioso hasta la fecha. A finales del 2018 formé Eon6 y fui conformando un equipo de trabajo que fue creciendo y dándole trabajo a chicos con gran potencial como developers. Fuimos creciendo desde ser 2 Devs hasta un pequeño equipo de trabajo de 8 personas que busca seguir creciendo. Me desenvuelvo como líder técnico a la hora de resolver dificultades con el equipo, de la gestión de proyectos, de varias tareas administrativas y de la dirección general de la empresa."
+                "description": "Desarrollo de Páginas Web y de aplicaciones móviles. Mi proyecto más ambicioso hasta la fecha. A finales del 2018 formé Eon6 y fui conformando un equipo de trabajo que fue creciendo y dándole trabajo a chicos con gran potencial como developers. Fuimos creciendo desde ser 2 Devs hasta un pequeño equipo de trabajo de 8 personas que busca seguir creciendo. Me desenvuelvo como líder técnico a la hora de resolver dificultades con el equipo, de la gestión de proyectos, de varias tareas administrativas y de la dirección general de la empresa.",
+                "technologies": [
+                    "Angular",
+                    "Ionic",
+                    "Typescript",
+                    "NodeJS",
+                    "ExpressJS",
+                    "MongoDB",
+                    "Mongoose",
+                    "JWT",
+                    "Git",
+                    "GitHub",
+                    "GitLab",
+                    "AWS",
+                    "Docker",
+                    "Firebase",
+                    "ReactJS",
+                    "React Native",
+                    "Linux",
+                    "MySQL"
+                ]
             },
             {
                 "company": "Magrathea",
@@ -95,7 +143,14 @@
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "mar 2018 / jul 2019",
                 "website": "",
-                "description": "Magrathea fue un pequeño proyecto de automatización y control desarrollado en C++ con un compañero de facultad basado en microcontroladores Arduino. Luego según su crecimiento fue migrándose a un microcontrolador más potente como el NodeMCU que además nos brindó funcionalidades de red WiFi. Lamentablemente nunca llegó a concretarse ya que fueron surgiendo otros trabajos y fue quedando en el olvido. Espero en algún momento poder retomarlo."
+                "description": "Magrathea fue un pequeño proyecto de automatización y control desarrollado en C++ con un compañero de facultad basado en microcontroladores Arduino. Luego según su crecimiento fue migrándose a un microcontrolador más potente como el NodeMCU que además nos brindó funcionalidades de red WiFi. Lamentablemente nunca llegó a concretarse ya que fueron surgiendo otros trabajos y fue quedando en el olvido. Espero en algún momento poder retomarlo.",
+                "technologies": [
+                    "C++",
+                    "Arduino",
+                    "NodeMCU",
+                    "ESP8266",
+                    "IoT"
+                ]
             },
             {
                 "company": "Tiempo Real SOTR",
@@ -103,7 +158,13 @@
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "oct 2016 / oct 2018",
                 "website": "https://www.trsi.com.ar/",
-                "description": "Hacia el final del cursado de mi carrera este fue mi primer trabajo fijo en el área de Ingeniería Electrónica. Me encargué de la configuración y puesta en marcha del sistemas de control NanoScada2010 en el rubro de la industria eléctrica en plantas generadoras ubicadas a lo largo y ancho de todo el país (Argentina). Los sistemas vinculaban la producción de cada planta con CAMMESA, la compañía argentina encargada de operar el mercado eléctrico mayorista del país. "
+                "description": "Hacia el final del cursado de mi carrera este fue mi primer trabajo fijo en el área de Ingeniería Electrónica. Me encargué de la configuración y puesta en marcha del sistemas de control NanoScada2010 en el rubro de la industria eléctrica en plantas generadoras ubicadas a lo largo y ancho de todo el país (Argentina). Los sistemas vinculaban la producción de cada planta con CAMMESA, la compañía argentina encargada de operar el mercado eléctrico mayorista del país. ",
+                "technologies": [
+                    "NanoSCADA 2010",
+                    "MSSQL",
+                    "Excel Macros",
+                    "Visual Basic 2010"
+                ]
             },
             {
                 "company": "Ternium Siderar - Techint ",
@@ -111,7 +172,12 @@
                 "location": "San Nicolás, Buenos Aires, Argentina",
                 "years": "ene 2015 - mar 2015",
                 "website": "https://ar.ternium.com/es",
-                "description": "Después de un largo proceso de selección durante el 2014 quedé seleccionado para las pasantías de verano realizadas en el gigante del acero. Mis tareas se abocaron al análisis del proceso de enfriado de las bobinas de acero para optimizar tiempos de producción e interiorizarme más del proceso en sí."
+                "description": "Después de un largo proceso de selección durante el 2014 quedé seleccionado para las pasantías de verano realizadas en el gigante del acero. Mis tareas se abocaron al análisis del proceso de enfriado de las bobinas de acero para optimizar tiempos de producción e interiorizarme más del proceso en sí.",
+                "technologies": [
+                    "Word",
+                    "Excel",
+                    "PowerPoint"
+                ]
             },
             {
                 "company": "Papelera Rosato S.A.",
@@ -119,7 +185,8 @@
                 "location": "Berazategui, Buenos Aires, Argentina",
                 "years": "ago 2008 - jul 2008",
                 "website": "",
-                "description": "Quedé seleccionado entre los estudiantes del último año de la secundaria, el Politécnico Escuela de Educación Técnica N°3 de Berazategui, para realizar una práctica educativa como pasante en el Parque Industrial de Plátanos."
+                "description": "Quedé seleccionado entre los estudiantes del último año de la secundaria, el Politécnico Escuela de Educación Técnica N°3 de Berazategui, para realizar una práctica educativa como pasante en el Parque Industrial de Plátanos.",
+                "technologies": []
             },
             {
                 "company": "Emprendimiento propio",
@@ -127,7 +194,8 @@
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "2012 - 2014",
                 "website": "",
-                "description": "Durante mis años de estudiante me dediqué en algunos ratos libres armar algunos de pedales de efectos para guitarra y otros circuitos de audio, con elaboración de la plaqueta, soldado de componentes y ensamblado final. No me llamaron de Fender pero aprendí mucho de electrónica."
+                "description": "Durante mis años de estudiante me dediqué en algunos ratos libres armar algunos de pedales de efectos para guitarra y otros circuitos de audio, con elaboración de la plaqueta, soldado de componentes y ensamblado final. No me llamaron de Fender pero aprendí mucho de electrónica.",
+                "technologies": []
             }
         ],
         "skills": [

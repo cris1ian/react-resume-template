@@ -39,7 +39,7 @@ export default function About(props) {
                             </p>
                         </div>
                         <div className="columns download printable-hide">
-                            <p>
+                            <p className="printable-hide">
                                 <a href={resumeDownload} className="button"><i className="fa fa-download"></i>{text.downloadCv}</a>
                             </p>
                         </div>

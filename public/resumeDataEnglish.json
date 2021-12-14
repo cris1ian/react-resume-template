@@ -2,7 +2,7 @@
     "main": {
         "name": "Cristian Martínez D'Urbano",
         "occupation": "Electronic Engineer & Software Developer",
-        "description": "\n\nI consider myself a very curious person, I love to be constantly incorporating new knowledge and I considery myself quite creative. \n \n About my work I have my expertise areas and I easily adapt to new technologies, this way I formed an agile profile. I think that learning speed is the steampunk enginge that brought me to this point.",
+        "description": "\n\nI consider myself a very curious person, I love to be constantly incorporating new knowledge and I consider myself quite creative. \n \n About my work I have my expertise areas and I easily adapt to new technologies, this way I formed an agile profile. I think that learning speed is the steampunk enginge that brought me to this point.",
         "image": "profilepic.jpg",
         "bio": "I am quite proactive, I enjoy to deeply understand the technologies and concepts I'm using day to day, and I'm always eager to see what new technologies arrise to get quickly on that boat. \n I love humor, memes and wordplays, and I use them every day as much as I can to make my day (and my coworkers) a little easier. \n  Besides all the tecnhical stuff I also have worked on my soft skills giving me abilites to coordinate teamwork and discussing project deliveries with clients. \n I keep forgetting the npm install command",
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
@@ -43,7 +43,7 @@
                 "school": "Universidad Nacional de Rosario - Facultad de Ciencias Exactas, Ingeniería y Agrimensura",
                 "degree": "Electronic Engineer",
                 "graduated": "2009 - currently",
-                "description": "Approved subjects 39/40 (97,5 %). Working on the tesis"
+                "description": "Approved subjects 39/40 (97,5 %). Working on the thesis"
             },
             {
                 "school": "German Burgardt",
@@ -71,7 +71,27 @@
                 "location": "Buenos Aires, Argentina",
                 "years": "feb 2020 / currently",
                 "website": "https://www.rightpartner.io/",
-                "description": "Mobile and Web developing in several system to provide augmented functionalities to several local and foreign enterprises (Stock systems, Oil companies, law firms). Here I'm in charge of the fullstack developing process of each one of the applications, discussing the project delivery with the client and coordinating team working in the maintenance of those apps."
+                "description": "Mobile and Web developing in several system to provide augmented functionalities to several local and foreign enterprises (Stock systems, Oil companies, law firms). Here I'm in charge of the fullstack developing process of each one of the applications, discussing the project delivery with the client and coordinating team working in the maintenance of those apps.",
+                "technologies": [
+                    "Angular",
+                    "Ionic",
+                    "Typescript",
+                    "NodeJS",
+                    "ExpressJS",
+                    "MongoDB",
+                    "Mongoose",
+                    "JWT",
+                    "Git",
+                    "GitHub",
+                    "GitLab",
+                    "AWS",
+                    "Docker",
+                    "Firebase",
+                    "ReactJS",
+                    "React Native",
+                    "Linux",
+                    "MySQL"
+                ]
             },
             {
                 "company": "National Ministry of Defense",
@@ -79,7 +99,15 @@
                 "location": "Buenos Aires, Argentina",
                 "years": "mar 2020 / currently",
                 "website": "https://www.argentina.gob.ar/defensa/",
-                "description": "Web Developer. I were developing for the National Ministry of Defense some APPs that allowed to hanlde logistics matters during the COVID-19 pandemic. Amongst them there were an app with an appointment system for local commerces and a system for giving appointments in the vaccination process. I were in charge mainly of the project management, team coordination and delivery dates. This was one of the most difficult challenges I had in my career as developer due to the short delivery times we had."
+                "description": "Web Developer. I were developing for the National Ministry of Defense some APPs that allowed to hanlde logistics matters during the COVID-19 pandemic. Amongst them there were an app with an appointment system for local commerces and a system for giving appointments in the vaccination process. I were in charge mainly of the project management, team coordination and delivery dates. This was one of the most difficult challenges I had in my career as developer due to the short delivery times we had.",
+                "technologies": [
+                    "Angular",
+                    "Ionic",
+                    "Typescript",
+                    "NodeJS",
+                    "ExpressJS",
+                    "MySQL"
+                ]
             },
             {
                 "company": "Eon6",
@@ -87,7 +115,27 @@
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "feb 2018 / feb 2020",
                 "website": "https://www.eon6.com.ar/",
-                "description": "Web and Mobile Development. One of my most ambicious projects so far. By the end of 2018 I funded Eon6, a small team of developers that started to grow and give new job opportunities to local people. We started as two friends and ended up with a team of 8 people working together and trying to gain more market. Here my role was a as a CEO, project leader and tecnhical consultor. We started small, and realized we had something nice in our hands."
+                "description": "Web and Mobile Development. One of my most ambicious projects so far. By the end of 2018 I funded Eon6, a small team of developers that started to grow and give new job opportunities to local people. We started as two friends and ended up with a team of 8 people working together and trying to gain more market. Here my role was a as a CEO, project leader and tecnhical consultor. We started small, and realized we had something nice in our hands.",
+                "technologies": [
+                    "Angular",
+                    "Ionic",
+                    "Typescript",
+                    "NodeJS",
+                    "ExpressJS",
+                    "MongoDB",
+                    "Mongoose",
+                    "JWT",
+                    "Git",
+                    "GitHub",
+                    "GitLab",
+                    "AWS",
+                    "Docker",
+                    "Firebase",
+                    "ReactJS",
+                    "React Native",
+                    "Linux",
+                    "MySQL"
+                ]
             },
             {
                 "company": "Magrathea",
@@ -95,7 +143,14 @@
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "mar 2018 / jul 2019",
                 "website": "",
-                "description": "Magrathea consisted of a little automatization project in C++ using Arduino microcontrollers, then we migrated to a more powerful Microcontroller Unit, the NodeMCU wich provided better performance and WiFi features. Sadly we never got to a first version of the product due to some other jobs that took the lead at that time. I hope to be able to continue it in some close future."
+                "description": "Magrathea consisted of a little automatization project in C++ using Arduino microcontrollers, then we migrated to a more powerful Microcontroller Unit, the NodeMCU wich provided better performance and WiFi features. Sadly we never got to a first version of the product due to some other jobs that took the lead at that time. I hope to be able to continue it in some close future.",
+                "technologies": [
+                    "C++",
+                    "Arduino",
+                    "NodeMCU",
+                    "ESP8266",
+                    "IoT"
+                ]
             },
             {
                 "company": "Tiempo Real SOTR",
@@ -103,7 +158,13 @@
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "oct 2016 / oct 2018",
                 "website": "https://www.trsi.com.ar/",
-                "description": "By the end of my university career I got this job, this one were my first job in the engineering field. In Tiempo Real I configured and installed industrial control systems, in the electricity generation field in power plants located all along the country (Argentina). The systems informed of the production of each power plant to CAMMESA, an entity that is in charge in regulating the wholesale electricity market in Argentina."
+                "description": "By the end of my university career I got this job, this one were my first job in the engineering field. In Tiempo Real I configured and installed industrial control systems, in the electricity generation field in power plants located all along the country (Argentina). The systems informed of the production of each power plant to CAMMESA, an entity that is in charge in regulating the wholesale electricity market in Argentina.",
+                "technologies": [
+                    "NanoSCADA 2010",
+                    "MSSQL",
+                    "Excel Macros",
+                    "Visual Basic 2010"
+                ]
             },
             {
                 "company": "Ternium Siderar - Techint ",
@@ -111,7 +172,12 @@
                 "location": "San Nicolás, Buenos Aires, Argentina",
                 "years": "jan 2015 - mar 2015",
                 "website": "https://ar.ternium.com/es",
-                "description": "After a long selection process during 2014 I was selected for the summer internships of Ternium Siderar, one of the biggest steel manufacturer in the country and the world. Here I worked analysing the batch cooling process of hot steel coils."
+                "description": "After a long selection process during 2014 I was selected for the summer internships of Ternium Siderar, one of the biggest steel manufacturer in the country and the world. Here I worked analysing the batch cooling process of hot steel coils.",
+                "technologies": [
+                    "Word",
+                    "Excel",
+                    "PowerPoint"
+                ]
             },
             {
                 "company": "Papelera Rosato S.A.",
@@ -119,7 +185,8 @@
                 "location": "Berazategui, Buenos Aires, Argentina",
                 "years": "ago 2008 - jul 2008",
                 "website": "",
-                "description": "This was an educational practice done in the Technolical Conglomerate in my town during my last year of school."
+                "description": "This was an educational practice done in the Technolical Conglomerate in my town during my last year of school.",
+                "technologies": []
             },
             {
                 "company": "Personal entrepreneurship",
@@ -127,7 +194,8 @@
                 "location": "Rosario, Santa Fe, Argentina",
                 "years": "2012 - 2014",
                 "website": "",
-                "description": "During some of my student years I assembled some guitar effects pedals, I got the blue prints from Internet and build them up for some time. I didn't get a phone call from Fender but I learned a lot of circuits."
+                "description": "During some of my student years I assembled some guitar effects pedals, I got the blue prints from Internet and build them up for some time. I didn't get a phone call from Fender but I learned a lot about circuits.",
+                "technologies": []
             }
         ],
         "skills": [

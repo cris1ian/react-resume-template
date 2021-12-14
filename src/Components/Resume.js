@@ -29,6 +29,12 @@ class Resume extends Component {
             {/* <span>&bull;</span> */}
             <br />
             <em className="date">{work.location}</em>
+            <br />
+            <div className="technologies-container">
+              {work.technologies.map(elem =>
+                <div className="technologies">{elem}</div>
+              )}
+            </div>
           </p>
           <p>{work.description}</p>
         </div>
@@ -88,7 +94,7 @@ class Resume extends Component {
           </div>
         </div>
 
-        <div className="row skill">
+        <div className="row skill avoid-page-break">
 
           <div className="three columns header-col">
             <h1><span>{text.skills}</span></h1>

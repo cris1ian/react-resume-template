@@ -16,8 +16,8 @@ class Testimonials extends Component {
     }
 
     return (
-      <section id="testimonials">
-        <div className="text-container">
+      <section id="testimonials" className="printable-hide">
+        <div className="text-container avoid-page-break">
           <div className="row">
 
             <div className="two columns header-col">

@@ -339,6 +339,23 @@ ul#nav li.current a {
     font: 15px/24px "opensans-regular", sans-serif;
     margin-top: 6px;
 }
+#resume .technologies-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0 15px 0px;
+}
+#resume .technologies {
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 1px 8px;
+    margin: 1px 1px;
+    font-size: 12px;
+    margin-right: 8px;
+    min-width: min(100px, 15%);
+    text-align: center;
+    font-family: "opensans-bold";
+}
 
 /*----------------------------------------------*/
 /*	Skill Bars
